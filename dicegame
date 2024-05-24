@@ -1,0 +1,18 @@
+import java.util.Scanner; // import the Scanner class 
+
+public class spielablauf {
+  
+  
+  public static void spieleranzahl(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String spieler;
+    
+    // Enter username and press Enter
+    System.out.println("Neue Spieler*n erzeugen:"); 
+    spieler = myObj.nextLine();   
+       
+    System.out.println("Du heißt: " + spieler);        
+  }
+}
+
+              
